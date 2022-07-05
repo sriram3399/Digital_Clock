@@ -28,7 +28,7 @@ function currentTime()
     sec = sec < 10 ? "0" + sec : sec;
 
    //value of current time
-   let currentTime = hour + ":" + min + ":" + sec +" "+ am_pm;
+   let currentTime = hour + "::" + min + "::" + sec +" "+ am_pm;
 
   // value of present day(Day, Month, Year)
   var months=["January","February","March","April","May","June","July","August","September","October","November","December"];
